@@ -25,3 +25,18 @@
     justify-content: space-between;
     transition: 0.3s ease-in-out;
 }
+.teacher--details{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #526d82;
+}
+.teacher--details img{
+    width: 50px;
+    background: #dde6ed;
+    border-radius: 50%;
+}
+.list:hover{
+    background: #dde6ed;
+    border-radius: 10px;
+}
