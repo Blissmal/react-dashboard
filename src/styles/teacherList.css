@@ -13,3 +13,15 @@
     border: 1px solid #dde6ed;
     color: #526d82;
 }
+.list--container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.list{
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s ease-in-out;
+}
