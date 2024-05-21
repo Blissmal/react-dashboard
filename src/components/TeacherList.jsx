@@ -8,7 +8,31 @@ const teachers = [
         name: 'Prof. John Doe',
         duration: '20 hours lesson',
         cost: '100'
-    }
+    },
+    {
+        image: Image1,
+        name: 'Prof. John Doe',
+        duration: '20 hours lesson',
+        cost: '100'
+    },
+    {
+        image: Image1,
+        name: 'Prof. John Doe',
+        duration: '20 hours lesson',
+        cost: '100'
+    },
+    {
+        image: Image1,
+        name: 'Prof. John Doe',
+        duration: '20 hours lesson',
+        cost: '100'
+    },
+    {
+        image: Image1,
+        name: 'Prof. John Doe',
+        duration: '20 hours lesson',
+        cost: '100'
+    },
 ]
 
 const TeacherList = () => {
@@ -29,7 +53,7 @@ const TeacherList = () => {
                             <h2>{teacher.name}</h2>
                         </div>
                         <span>{teacher.duration}</span>
-                        <span>{teacher.cost}</span>
+                        <span>${teacher.cost}/hr</span>
                         <span className='teacher--todo'>:</span>
                     </div>
                 ))}
